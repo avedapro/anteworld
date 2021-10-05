@@ -102,7 +102,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>../../include/comm/_build/msvc/2019/bin/$(Platform)/$(Configuration);../../lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>c4e.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>c5e_lib.dll.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
